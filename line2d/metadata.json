@@ -1,0 +1,15 @@
+{
+"name": "../data/tiles/line2d",
+"description": "../data/tiles/line2d",
+"version": "2",
+"minzoom": "1",
+"maxzoom": "13",
+"center": "110.852051,43.181145,13",
+"bounds": "110.789750,33.053770,123.240290,43.327850",
+"antimeridian_adjusted_bounds": "110.789750,33.053770,123.240290,43.327850",
+"type": "overlay",
+"format": "pbf",
+"generator": "tippecanoe v2.57.0",
+"generator_options": "tippecanoe -L '{\"file\":\"../data/geojson/line2d.geojson\",\"layer\":\"line2d\"}' -Z1 -z13 -d9 --force --no-tile-compression '--output-to-directory=../data/tiles/line2d'",
+"json": "{\"vector_layers\":[{\"id\":\"line2d\",\"description\":\"\",\"minzoom\":1,\"maxzoom\":13,\"fields\":{}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"line2d\",\"count\":1,\"geometry\":\"LineString\",\"attributeCount\":0,\"attributes\":[]}]}}"
+}

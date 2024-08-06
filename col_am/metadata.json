@@ -1,0 +1,16 @@
+{
+"name": "../data/tiles/col_am",
+"description": "../data/tiles/col_am",
+"version": "2",
+"minzoom": "1",
+"maxzoom": "13",
+"center": "110.852051,43.181145,13",
+"bounds": "110.789700,33.053800,123.242800,43.327800",
+"antimeridian_adjusted_bounds": "110.789700,33.053800,123.242800,43.327800",
+"type": "overlay",
+"strategies": "[{},{\"detail_reduced\":1,\"tiny_polygons\":241758,\"tile_size_desired\":641595},{\"detail_reduced\":2,\"tiny_polygons\":362637,\"tile_size_desired\":2624309},{\"detail_reduced\":5,\"tiny_polygons\":375860,\"tile_size_desired\":3366497},{\"detail_reduced\":8,\"tiny_polygons\":252239,\"tile_size_desired\":2961087},{\"detail_reduced\":8,\"tiny_polygons\":224382,\"tile_size_desired\":2848201},{\"detail_reduced\":17,\"tiny_polygons\":115989,\"tile_size_desired\":899131},{\"tiny_polygons\":34},{\"tiny_polygons\":40},{\"tiny_polygons\":22},{\"tiny_polygons\":1},{\"tiny_polygons\":10},{\"tiny_polygons\":14},{\"tiny_polygons\":251}]",
+"format": "pbf",
+"generator": "tippecanoe v2.57.0",
+"generator_options": "tippecanoe -L '{\"file\":\"../data/geojson/col_am.geojson\",\"layer\":\"col_am\"}' -Z1 -z13 -d9 --force --no-tile-compression '--output-to-directory=../data/tiles/col_am'",
+"json": "{\"vector_layers\":[{\"id\":\"col_am\",\"description\":\"\",\"minzoom\":1,\"maxzoom\":13,\"fields\":{\"data\":\"Number\",\"id\":\"Number\"}}],\"tilestats\":{\"layerCount\":1,\"layers\":[{\"layer\":\"col_am\",\"count\":120879,\"geometry\":\"Polygon\",\"attributeCount\":2,\"attributes\":[{\"attribute\":\"data\",\"count\":541,\"type\":\"number\",\"values\":[-1,-10,-11,-12,-13,-14,-15,-16,-17,-18,-19,-2,-20,-21,-22,-23,-24,-26,-27,-28,-29,-3,-31,-36,-4,-5,-6,-7,-8,-9,0,1,10,100,101,102,103,104,105,106,107,108,109,11,110,111,112,113,114,115,116,117,118,119,12,120,121,122,123,124,125,126,127,128,129,13,130,131,132,133,134,135,136,137,138,139,14,140,141,142,143,144,145,146,147,148,149,15,150,151,152,153,154,155,156,157,158,159,16,160],\"min\":-36,\"max\":625},{\"attribute\":\"id\",\"count\":1000,\"type\":\"number\",\"values\":[0,1,10,100,1000,10000,100000,100001,100002,100003,100004,100005,100006,100007,100008,100009,10001,100010,100011,100012,100013,100014,100015,100016,100017,100018,100019,10002,100020,100021,100022,100023,100024,100025,100026,100027,100028,100029,10003,100030,100031,100032,100033,100034,100035,100036,100037,100038,100039,10004,100040,100041,100042,100043,100044,100045,100046,100047,100048,100049,10005,100050,100051,100052,100053,100054,100055,100056,100057,100058,100059,10006,100060,100061,100062,100063,100064,100065,100066,100067,100068,100069,10007,100070,100071,100072,100073,100074,100075,100076,100077,100078,100079,10008,100080,100081,100082,100083,100084,100085],\"min\":0,\"max\":120878}]}]}}"
+}
